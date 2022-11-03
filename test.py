@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Solve the following MIP:
 #  maximize
 #        x +   y + 2 z
@@ -27,3 +28,6 @@ m.addConstr(x + y >= 1)
 m.optimize()
 
 print(f"Optimal objective value: {m.objVal}")
+=======
+import numpy
+>>>>>>> 99d690e (a test)
